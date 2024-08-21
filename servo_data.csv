@@ -1,0 +1,176 @@
+Make,Model,Modulation,Weight(oz),L(in),W(in),H(in),Torque(which_V),Torque(oz-in),Speed(which_V),Speed(s/60°),Motor Type,Rotation,Gear Material,Typical Price
+Ace RC,C0915,Analog,0.32,0.87,0.45,0.93,4.8,20.8,4.8,0.10,(add),Single Bearing,Plastic,30.99
+Ace RC,C0915,Analog,0.32,0.87,0.45,0.93,6.0,26.4,6.0,0.08,(add),Single Bearing,Plastic,30.99
+Ace RC,C1016,Analog,0.32,0.87,0.45,0.93,4.8,22.2,4.8,0.10,(add),Single Bearing,Metal,17.99
+Ace RC,DS0606,Digital,2.12,1.59,0.80,1.56,4.8,58.0,4.8,0.07,Coreless,Dual Bearings,Plastic,83.95
+Ace RC,DS0606,Digital,2.12,1.59,0.80,1.56,6.0,74.0,6.0,0.06,Coreless,Dual Bearings,Plastic,83.95
+Ace RC,DS1013,Digital,2.19,1.62,0.79,1.51,6.0,180.5,6.0,0.11,Coreless,(add),Metal,93.99
+Ace RC,DS1015,Digital,2.33,1.65,0.81,1.56,6.0,201.4,6.0,0.11,Coreless,Single Bearing,Metal,96.99
+Ace RC,DS1111,Digital,2.28,1.62,0.79,1.51,4.8,118.0,4.8,0.16,Coreless,(add),Metal,92.99
+Ace RC,DS1211,Digital,2.19,1.62,0.79,1.51,6.0,149.9,6.0,0.13,Coreless,(add),Metal,79.99
+Ace RC,DS1213,Digital,2.33,1.65,0.81,1.56,4.8,133.0,4.8,0.16,Coreless,(add),Metal,96.99
+Ace RC,DS1313,Digital,2.33,1.65,0.81,1.56,6.0,173.6,6.0,0.13,Coreless,Single Bearing,Metal,74.99
+Ace RC,S1807MG,Analog,1.71,1.59,0.79,1.49,4.8,95.8,4.8,0.18,(add),Dual Bearings,Metal,39.99
+Ace RC,S1903,Analog,1.64,1.59,0.79,1.49,4.8,41.7,4.8,0.19,(add),Bushing,Plastic,14.99
+Ace RC,S1903MG,Analog,1.78,1.59,0.79,1.49,4.8,41.7,4.8,0.19,(add),Bushing,Hybrid,16.99
+Ace RC,S2008MG,Analog,1.71,1.59,0.79,1.49,4.8,108.3,4.8,0.21,(add),Dual Bearings,Metal,44.99
+Ace RC,WQ2811,(add),4.23,2.28,1.10,2.05,6.0,153.0,6.0,0.28,(add),(add),(add),(add)
+Airtronics,141MG,(add),0.89,1.42,0.66,1.29,4.8,45.0,4.8,0.20,Coreless,(add),Metal,59.95
+Airtronics,94051Z,Analog,0.78,1.34,0.55,1.34,4.8,18.0,4.8,0.19,3-pole,Bushing,Plastic,29.95
+Airtronics,94051Z,Analog,0.78,1.34,0.55,1.34,6.0,23.0,6.0,0.15,3-pole,Bushing,Plastic,29.95
+Airtronics,94091Z,Analog,0.32,0.91,0.44,0.87,4.8,18.0,4.8,0.12,3-pole,Bushing,Plastic,13.99
+Airtronics,94091Z,Analog,0.32,0.91,0.44,0.87,6.0,23.0,6.0,0.10,3-pole,Bushing,Plastic,13.99
+Airtronics,94102Z,Analog,1.59,1.54,0.79,1.42,4.8,42.0,4.8,0.20,3-pole,Bushing,Plastic,11.99
+Airtronics,94102Z,Analog,1.59,1.54,0.79,1.42,6.0,53.0,6.0,0.16,3-pole,Bushing,Plastic,11.99
+Airtronics,94112Z,Analog,1.59,1.54,0.79,1.42,4.8,45.0,4.8,0.17,3-pole,Bushing,Plastic,(add)
+Airtronics,94112Z,Analog,1.59,1.54,0.79,1.42,6.0,56.0,6.0,0.14,3-pole,Bushing,Plastic,(add)
+Airtronics,94141Z,Analog,1.16,1.42,0.59,1.29,4.8,45.0,4.8,0.20,(add),Single Bearing,Metal,59.95
+Airtronics,94141Z,Analog,1.16,1.42,0.59,1.29,6.0,56.0,6.0,0.16,(add),Single Bearing,Metal,59.95
+Airtronics,94145Z,Analog,1.09,1.42,0.59,1.29,4.8,26.0,4.8,0.09,Coreless,Single Bearing,Hybrid,63.95
+Airtronics,94145Z,Analog,1.09,1.42,0.59,1.29,6.0,32.0,6.0,0.07,Coreless,Single Bearing,Hybrid,63.95
+Airtronics,94161Z,Analog,2.36,1.54,0.78,1.61,4.8,115.0,4.8,0.23,3-pole,Dual Bearings,Metal,74.95
+Airtronics,94161Z,Analog,2.36,1.54,0.78,1.61,6.0,144.0,6.0,0.18,3-pole,Dual Bearings,Metal,74.95
+Airtronics,94162Z,Analog,2.36,1.54,0.79,1.61,4.8,115.0,4.8,0.23,3-pole,Dual Bearings,Metal,29.99
+Airtronics,94162Z,Analog,2.36,1.54,0.79,1.61,6.0,144.0,6.0,0.18,3-pole,Dual Bearings,Metal,29.99
+Airtronics,94257Z,(add),1.80,1.54,0.79,1.38,4.8,110.0,4.8,0.06,Coreless,(add),Metal,114.95
+Airtronics,94258Z,(add),1.80,1.54,0.79,1.38,4.8,145.0,4.8,0.09,Coreless,(add),Metal,114.95
+Airtronics,94322Z,Analog,1.59,1.54,0.79,1.42,4.8,46.0,4.8,0.19,3-pole,Single Bearing,Plastic,14.99
+Airtronics,94322Z,Analog,1.59,1.54,0.79,1.42,6.0,58.0,6.0,0.15,3-pole,Single Bearing,Plastic,14.99
+Airtronics,94357Z,Analog,2.06,1.54,0.79,1.47,4.8,100.0,4.8,0.09,Coreless,Dual Bearings,Hybrid,139.95
+Airtronics,94357Z,Analog,2.06,1.54,0.79,1.47,6.0,125.0,6.0,0.07,Coreless,Dual Bearings,Hybrid,139.95
+Airtronics,94358Z,Analog,2.06,1.54,0.79,1.47,4.8,160.0,4.8,0.13,Coreless,Dual Bearings,Hybrid,139.95
+Airtronics,94358Z,Analog,2.06,1.54,0.79,1.47,6.0,200.0,6.0,0.10,Coreless,Dual Bearings,Hybrid,139.95
+Airtronics,94359Z,Analog,2.18,1.54,0.79,1.47,4.8,160.0,4.8,0.13,Coreless,Dual Bearings,Metal,119.95
+Airtronics,94359Z,Analog,2.18,1.54,0.79,1.47,6.0,200.0,6.0,0.10,Coreless,Dual Bearings,Metal,119.95
+Airtronics,94360Z,Analog,2.18,1.54,0.79,1.47,4.8,100.0,4.8,0.09,Coreless,Dual Bearings,Metal,109.95
+Airtronics,94360Z,Analog,2.18,1.54,0.79,1.47,6.0,125.0,6.0,0.07,Coreless,Dual Bearings,Metal,109.95
+Airtronics,94361Z,Analog,2.11,1.54,0.79,1.47,4.8,160.0,4.8,0.09,Coreless,Dual Bearings,Metal,109.95
+Airtronics,94361Z,Analog,2.11,1.54,0.79,1.47,6.0,200.0,6.0,0.07,Coreless,Dual Bearings,Metal,109.95
+Airtronics,94362Z,Analog,2.11,1.54,0.79,1.47,4.8,100.0,4.8,0.09,Coreless,Dual Bearings,Metal,119.95
+Airtronics,94362Z,Analog,2.11,1.54,0.79,1.47,6.0,125.0,6.0,0.07,Coreless,Dual Bearings,Metal,119.95
+Airtronics,94407Z,(add),2.07,1.54,0.79,1.47,4.8,29.0,4.8,0.23,Coreless,(add),(add),(add)
+Airtronics,94451Z,Analog,1.94,1.54,0.79,1.47,4.8,88.0,4.8,0.15,(add),Dual Bearings,Plastic,109.95
+Airtronics,94451Z,Analog,1.94,1.54,0.79,1.47,6.0,110.0,6.0,0.12,(add),Dual Bearings,Plastic,109.95
+Airtronics,94452Z,Analog,2.08,1.54,0.79,1.47,4.8,77.0,4.8,0.11,Coreless,Dual Bearings,Hybrid,114.95
+Airtronics,94452Z,Analog,2.08,1.54,0.79,1.47,6.0,96.0,6.0,0.09,Coreless,Dual Bearings,Hybrid,114.95
+Airtronics,94453Z,Analog,2.08,1.54,0.79,1.47,4.8,99.0,4.8,0.17,(add),Dual Bearings,Hybrid,114.95
+Airtronics,94453Z,Analog,2.08,1.54,0.79,1.47,6.0,124.0,6.0,0.14,(add),Dual Bearings,Hybrid,114.95
+Airtronics,94501Z,Analog,0.53,1.06,0.49,1.06,4.8,18.0,4.8,0.24,Coreless,Bushing,Plastic,49.95
+Airtronics,94501Z,Analog,0.53,1.06,0.49,1.06,6.0,23.0,6.0,0.19,Coreless,Bushing,Plastic,49.95
+Airtronics,94555Z,Analog,0.56,1.06,0.49,1.06,4.8,22.0,4.8,0.21,(add),Bushing,Metal,74.95
+Airtronics,94555Z,Analog,0.56,1.06,0.49,1.06,6.0,28.0,6.0,0.17,(add),Bushing,Metal,74.95
+Airtronics,94556Z,Analog,0.56,1.06,0.49,1.06,4.8,31.0,4.8,0.24,Coreless,Bushing,Hybrid,(add)
+Airtronics,94556Z,Analog,0.56,1.06,0.49,1.06,6.0,39.0,6.0,0.19,Coreless,Bushing,Hybrid,(add)
+Airtronics,94557Z,(add),0.71,1.06,0.49,1.28,4.8,31.0,4.8,0.24,Coreless,(add),(add),(add)
+Airtronics,94557Z,(add),0.71,1.06,0.49,1.28,6.0,39.0,6.0,0.19,Coreless,(add),(add),(add)
+Airtronics,94558Z,Digital,0.71,1.06,0.49,1.28,4.8,43.0,4.8,0.23,(add),Bushing,Hybrid,(add)
+Airtronics,94558Z,Digital,0.71,1.06,0.49,1.28,6.0,54.0,6.0,0.18,(add),Bushing,Hybrid,(add)
+Airtronics,94702,Digital,1.44,1.54,0.79,1.42,4.8,46.0,4.8,0.18,(add),Bushing,Plastic,24.99
+Airtronics,94722,Digital,1.55,1.54,0.79,1.42,4.8,50.0,4.8,0.17,(add),Single Bearing,Plastic,29.99
+Airtronics,94731Z,Analog,1.80,1.54,0.79,1.40,4.8,77.0,4.8,0.17,Coreless,Dual Bearings,Plastic,74.95
+Airtronics,94731Z,Analog,1.80,1.54,0.79,1.40,6.0,96.0,6.0,0.14,Coreless,Dual Bearings,Plastic,74.95
+Airtronics,94732Z,Analog,1.80,1.54,0.79,1.38,4.8,68.0,4.8,0.19,Coreless,Dual Bearings,(add),89.95
+Airtronics,94734Z,Analog,1.73,1.46,0.79,1.38,4.8,73.0,4.8,0.40,(add),Dual Bearings,Hybrid,63.95
+Airtronics,94734Z,Analog,1.73,1.46,0.79,1.38,6.0,91.0,6.0,0.32,(add),Dual Bearings,Hybrid,63.95
+Airtronics,94737Z,Analog,1.94,1.54,0.79,1.38,4.8,56.0,4.8,0.15,Coreless,Dual Bearings,Hybrid,87.95
+Airtronics,94737Z,Analog,1.94,1.54,0.79,1.38,6.0,70.0,6.0,0.12,Coreless,Dual Bearings,Hybrid,87.95
+Airtronics,94738Z,(add),1.94,1.54,0.79,1.38,4.8,70.0,4.8,0.20,Coreless,Dual Bearings,Metal,74.95
+Airtronics,94738Z,(add),1.94,1.54,0.79,1.38,6.0,88.0,6.0,0.16,Coreless,Dual Bearings,Metal,74.95
+Airtronics,94739Z,Analog,1.87,1.46,0.75,1.44,4.8,74.0,4.8,0.42,(add),Dual Bearings,Hybrid,59.95
+Airtronics,94739Z,Analog,1.87,1.46,0.75,1.44,6.0,93.0,6.0,0.34,(add),Dual Bearings,Hybrid,59.95
+Airtronics,94742Z,(add),1.87,1.46,0.75,1.38,4.8,74.0,4.8,0.42,(add),(add),(add),44.95
+Airtronics,94742Z,(add),1.87,1.46,0.75,1.38,6.0,93.0,6.0,0.34,(add),(add),(add),44.95
+Airtronics,94743Z,Analog,1.80,1.54,0.79,1.38,4.8,67.0,4.8,0.19,5-pole,Dual Bearings,Hybrid,44.95
+Airtronics,94743Z,Analog,1.80,1.54,0.79,1.38,6.0,84.0,6.0,0.15,5-pole,Dual Bearings,Hybrid,44.95
+Airtronics,94746M,Digital,1.76,1.59,0.83,1.04,4.8,80.0,4.8,0.10,3-pole,Dual Bearings,Metal,99.99
+Airtronics,94746M,Digital,1.76,1.59,0.83,1.04,6.0,89.0,6.0,0.08,3-pole,Dual Bearings,Metal,99.99
+Airtronics,94751Z,Digital,1.80,1.54,0.79,1.40,4.8,73.0,4.8,0.16,Coreless,Dual Bearings,Plastic,(add)
+Airtronics,94751Z,Digital,1.80,1.54,0.79,1.40,6.0,91.0,6.0,0.13,Coreless,Dual Bearings,Plastic,(add)
+Airtronics,94755Z,Digital,2.04,1.54,0.79,1.40,4.8,65.0,4.8,0.14,Coreless,Dual Bearings,Hybrid,99.99
+Airtronics,94755Z,Digital,2.04,1.54,0.79,1.40,6.0,81.0,6.0,0.11,Coreless,Dual Bearings,Hybrid,99.99
+Airtronics,94757Z,Digital,2.04,1.54,0.79,1.40,4.8,96.0,4.8,0.09,(add),Dual Bearings,Metal,(add)
+Airtronics,94757Z,Digital,2.04,1.54,0.79,1.40,6.0,115.0,6.0,0.07,(add),Dual Bearings,Metal,(add)
+Airtronics,94758Z,Digital,2.12,1.54,0.79,1.47,4.8,92.0,4.8,0.07,Coreless,Dual Bearings,Metal,86.99
+Airtronics,94758Z,Digital,2.12,1.54,0.79,1.47,6.0,115.0,6.0,0.06,Coreless,Dual Bearings,Metal,86.99
+Airtronics,94761Z,Digital,0.81,1.06,0.47,1.18,4.8,55.0,4.8,0.15,3-pole,Dual Bearings,Metal,59.99
+Airtronics,94761Z,Digital,0.81,1.06,0.47,1.18,6.0,66.0,6.0,0.12,3-pole,Dual Bearings,Metal,59.99
+Airtronics,94762,Digital,1.94,1.54,0.79,1.61,4.8,92.0,4.8,0.22,(add),Dual Bearings,Metal,49.99
+Airtronics,94771M,Digital,1.98,1.54,0.79,1.47,4.8,82.0,4.8,0.13,3-pole,Dual Bearings,Metal,108.99
+Airtronics,94771M,Digital,1.98,1.54,0.79,1.47,6.0,103.0,6.0,0.10,3-pole,Dual Bearings,Metal,108.99
+Airtronics,94772M,(add),1.98,1.54,0.79,1.47,4.8,67.0,4.8,0.11,3-pole,Dual Bearings,Metal,69.99
+Airtronics,94772M,(add),1.98,1.54,0.79,1.47,6.0,83.0,6.0,0.09,3-pole,Dual Bearings,Metal,69.99
+Airtronics,94773M,(add),2.00,1.54,0.79,1.47,4.8,156.0,4.8,0.15,3-pole,Dual Bearings,Metal,108.99
+Airtronics,94773M,(add),2.00,1.54,0.79,1.47,6.0,194.0,6.0,0.12,3-pole,Dual Bearings,Metal,108.99
+Airtronics,94774,Digital,1.98,1.54,0.78,1.50,4.8,92.0,4.8,0.13,(add),Dual Bearings,Metal,84.99
+Airtronics,94774,Digital,1.98,1.54,0.78,1.50,6.0,114.0,6.0,0.10,(add),Dual Bearings,Metal,84.99
+Airtronics,94775,Digital,1.98,1.54,0.78,1.50,4.8,124.0,4.8,0.17,Coreless,Dual Bearings,Metal,64.99
+Airtronics,94775,Digital,1.98,1.54,0.78,1.50,6.0,151.0,6.0,0.13,Coreless,Dual Bearings,Metal,64.99
+Airtronics,94780M,Digital,2.33,1.60,0.83,1.50,4.8,361.0,4.8,0.19,Coreless,Dual Bearings,Metal,114.99
+Airtronics,94780M,Digital,2.33,1.60,0.83,1.50,6.0,423.0,6.0,0.15,Coreless,Dual Bearings,Metal,114.99
+Airtronics,94802,Digital,0.26,0.91,0.35,0.90,4.8,22.0,4.8,0.18,3-pole,Dual Bearings,Plastic,36.99
+Airtronics,94802,Digital,0.26,0.91,0.35,0.90,6.0,26.0,6.0,0.15,3-pole,Dual Bearings,Plastic,36.99
+Airtronics,94803,Digital,0.35,0.93,0.45,0.83,4.8,24.0,4.8,0.15,3-pole,Single Bearing,Plastic,34.99
+Airtronics,94803,Digital,0.35,0.93,0.45,0.83,6.0,28.0,6.0,0.12,3-pole,Single Bearing,Plastic,34.99
+Airtronics,94809,Digital,0.38,0.93,0.45,0.83,4.8,35.0,4.8,0.12,3-pole,Single Bearing,Metal,44.99
+Airtronics,94809,Digital,0.38,0.93,0.45,0.83,6.0,39.0,6.0,0.10,3-pole,Single Bearing,Metal,44.99
+Airtronics,94814,Digital,0.60,1.16,0.47,1.02,4.8,21.0,4.8,0.07,3-pole,Bushing,Plastic,44.99
+Airtronics,94814,Digital,0.60,1.16,0.47,1.02,6.0,25.0,6.0,0.06,3-pole,Bushing,Plastic,44.99
+Airtronics,94815,Digital,0.62,1.16,0.47,1.02,4.8,21.0,4.8,0.07,3-pole,Single Bearing,Metal,57.99
+Airtronics,94815,Digital,0.62,1.16,0.47,1.02,6.0,25.0,6.0,0.06,3-pole,Single Bearing,Metal,57.99
+Airtronics,94819,Digital,0.92,1.26,0.63,1.24,4.8,28.0,4.8,0.08,3-pole,Dual Bearings,Plastic,45.99
+Airtronics,94819,Digital,0.92,1.26,0.63,1.24,6.0,33.0,6.0,0.07,3-pole,Dual Bearings,Plastic,45.99
+Airtronics,94820,Digital,1.04,1.26,0.63,1.24,4.8,76.0,4.8,0.22,3-pole,Dual Bearings,Metal,57.99
+Airtronics,94820,Digital,1.04,1.26,0.63,1.24,6.0,90.0,6.0,0.18,3-pole,Dual Bearings,Metal,57.99
+Airtronics,94831Z,Analog,1.09,1.46,0.71,1.18,4.8,49.0,4.8,0.20,5-pole,Single Bearing,Hybrid,32.95
+Airtronics,94831Z,Analog,1.09,1.46,0.71,1.18,6.0,61.0,6.0,0.16,5-pole,Single Bearing,Hybrid,32.95
+Airtronics,94842,Digital,1.62,1.57,0.77,1.56,4.8,111.0,4.8,0.16,3-pole,Dual Bearings,Plastic,35.99
+Airtronics,94842,Digital,1.62,1.57,0.77,1.56,6.0,132.0,6.0,0.13,3-pole,Dual Bearings,Plastic,35.99
+Airtronics,94851,Digital,1.87,1.57,0.77,1.56,4.8,161.0,4.8,0.23,3-pole,Dual Bearings,Metal,55.99
+Airtronics,94851,Digital,1.87,1.57,0.77,1.56,6.0,192.0,6.0,0.19,3-pole,Dual Bearings,Metal,55.99
+Airtronics,94856,Digital,2.05,1.50,0.79,1.49,4.8,125.0,4.8,0.14,(add),Dual Bearings,Metal,99.99
+Airtronics,94856,Digital,2.05,1.50,0.79,1.49,6.0,150.0,6.0,0.11,(add),Dual Bearings,Metal,99.99
+Airtronics,94858,Digital,2.05,1.50,0.79,1.49,4.8,153.0,4.8,0.15,(add),Dual Bearings,Metal,107.38
+Airtronics,94858,Digital,2.05,1.50,0.79,1.49,6.0,183.0,6.0,0.12,(add),Dual Bearings,Metal,107.38
+Airtronics,94910,Digital,2.22,1.59,0.83,1.50,6.0,225.0,6.0,0.12,(add),Dual Bearings,Metal,169.99
+Airtronics,94910,Digital,2.22,1.59,0.83,1.50,7.4,285.0,7.4,0.10,(add),Dual Bearings,Metal,169.99
+Airtronics,94911,Digital,2.22,1.59,0.83,1.50,6.0,240.0,6.0,0.15,(add),Dual Bearings,Metal,169.99
+Airtronics,94911,Digital,2.22,1.59,0.83,1.50,7.4,336.0,7.4,0.12,(add),Dual Bearings,Metal,169.99
+Airtronics,94921Z,(add),1.69,1.74,0.87,0.92,4.8,56.0,4.8,0.16,Coreless,(add),(add),82.95
+Airtronics,94921Z,(add),1.69,1.74,0.87,0.92,6.0,70.0,6.0,0.13,Coreless,(add),(add),82.95
+Airtronics,94924Z,(add),1.60,1.74,0.87,0.92,4.8,77.0,4.8,0.48,5-pole,(add),(add),74.95
+Airtronics,94924Z,(add),1.60,1.74,0.87,0.92,6.0,96.0,6.0,0.38,5-pole,(add),(add),74.95
+Airtronics,94930,Digital,2.15,1.59,0.83,1.50,4.8,88.0,4.8,0.13,Brushless,Dual Bearings,Metal,199.99
+Airtronics,94930,Digital,2.15,1.59,0.83,1.50,6.0,111.0,6.0,0.10,Brushless,Dual Bearings,Metal,199.99
+Airtronics,94931,Digital,2.22,1.59,0.83,1.50,4.8,142.0,4.8,0.15,Brushless,Dual Bearings,Metal,199.99
+Airtronics,94931,Digital,2.22,1.59,0.83,1.50,6.0,181.0,6.0,0.12,Brushless,Dual Bearings,Metal,199.99
+Airtronics,94950,Digital,2.15,1.59,0.83,1.50,4.8,100.0,4.8,0.13,Coreless,Dual Bearings,Metal,179.99
+Airtronics,94950,Digital,2.15,1.59,0.83,1.50,6.0,125.0,6.0,0.10,Coreless,Dual Bearings,Metal,179.99
+Airtronics,94951,Digital,2.22,1.59,0.83,1.50,4.8,175.0,4.8,0.14,Coreless,Dual Bearings,Metal,179.99
+Airtronics,94951,Digital,2.22,1.59,0.83,1.50,6.0,205.0,6.0,0.12,Coreless,Dual Bearings,Metal,179.99
+Airtronics,97738Z,Analog,1.94,1.54,0.79,1.38,4.8,70.0,4.8,0.20,(add),Dual Bearings,Hybrid,(add)
+Airtronics,97738Z,Analog,1.94,1.54,0.79,1.38,6.0,88.0,6.0,0.16,(add),Dual Bearings,Hybrid,(add)
+Align,18G,Analog,0.67,1.18,0.45,1.22,4.8,27.8,4.8,0.16,(add),(add),(add),11.99
+Align,36G,(add),1.27,1.42,0.79,1.42,4.8,34.7,4.8,0.15,(add),(add),(add),10.48
+Align,6G,(add),0.21,0.81,0.43,0.87,4.8,9.0,4.8,0.13,(add),(add),(add),11.10
+Align,6X,(add),0.21,0.83,0.47,0.79,4.8,9.7,4.8,0.10,(add),(add),(add),11.10
+Align,9G,(add),0.32,0.87,0.41,1.42,4.8,13.9,4.8,0.13,(add),(add),(add),11.10
+Align,9XP,Analog,0.32,0.94,0.49,0.94,4.8,18.1,4.8,0.11,(add),(add),(add),11.99
+Align,DS410,Digital,0.45,0.93,0.49,1.04,4.8,25.0,4.8,0.13,(add),Single Bearing,Plastic,27.99
+Align,DS410,Digital,0.45,0.93,0.49,1.04,6.0,30.6,6.0,0.09,(add),Single Bearing,Plastic,27.99
+Align,DS410M,Digital,0.47,0.93,0.49,1.04,4.8,25.0,4.8,0.13,(add),Single Bearing,Metal,34.99
+Align,DS410M,Digital,0.47,0.93,0.49,1.04,6.0,30.6,6.0,0.09,(add),Single Bearing,Metal,34.99
+Align,DS420,Digital,0.45,0.93,0.49,1.04,4.8,10.4,4.8,0.08,Coreless,Single Bearing,Metal,27.99
+Align,DS420,Digital,0.45,0.93,0.49,1.04,6.0,13.9,6.0,0.06,Coreless,Single Bearing,Metal,27.99
+Align,DS510,Digital,0.91,1.38,0.59,1.15,4.8,51.4,4.8,0.13,Coreless,Dual Bearings,Plastic,49.99
+Align,DS510,Digital,0.91,1.38,0.59,1.15,6.0,63.9,6.0,0.11,Coreless,Dual Bearings,Plastic,49.99
+Align,DS510M,Digital,1.02,1.38,0.59,1.15,4.8,51.4,4.8,0.13,Coreless,Dual Bearings,Metal,62.99
+Align,DS510M,Digital,1.02,1.38,0.59,1.15,6.0,63.9,6.0,0.11,Coreless,Dual Bearings,Metal,62.99
+Align,DS520,Digital,0.91,1.43,0.61,1.19,4.8,26.4,4.8,0.09,Coreless,(add),Plastic,49.99
+Align,DS520,Digital,0.91,1.43,0.61,1.19,6.0,34.7,6.0,0.07,Coreless,(add),Plastic,49.99
+Align,DS610,Digital,1.85,1.64,0.82,1.47,4.8,133.3,4.8,0.10,Coreless,Dual Bearings,Titanium,67.99
+Align,DS610,Digital,1.85,1.64,0.82,1.47,6.0,166.6,6.0,0.08,Coreless,Dual Bearings,Titanium,67.99
+Align,DS620,Digital,1.84,1.64,0.82,1.47,4.8,111.1,4.8,0.09,Coreless,Dual Bearings,Titanium,67.99
+Align,DS620,Digital,1.84,1.64,0.82,1.47,6.0,138.9,6.0,0.07,Coreless,Dual Bearings,Titanium,67.99
+Align,DS650,Digital,1.98,1.64,0.82,1.47,4.8,55.5,4.8,0.06,Coreless,Dual Bearings,Metal,75.99
+Align,DS650,Digital,1.98,1.64,0.82,1.47,6.0,69.4,6.0,0.05,Coreless,Dual Bearings,Metal,75.99
+All e RC,Micro6,Analog,0.21,0.79,0.44,0.76,4.8,9.9,4.8,0.10,(add),(add),Plastic,8.95
