@@ -1,4 +1,8 @@
 import pandas as pd
+import datetime
+
+from pip._internal.utils.misc import tabulate
+
 
 def filter_by_range(df, column_name, lower_bound, upper_bound):
   """Filters a DataFrame based on a column's value range.
@@ -30,22 +34,18 @@ def filter_by_text(df, column_name, text):
   return df[df[column_name].str.contains(text, case=False)]
 
 
+def save_filtered_df(filtered_df):
+  """Saves the filtered DataFrame to a new CSV file with a timestamp.
+
+  Args:
+    filtered_df: The filtered DataFrame.
+  """
+
+  timestamp = datetime.datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
+  filename = f"queryAt_{timestamp}.csv"
+  filtered_df.to_csv(filename, index=False)
+  print(f"Filtered DataFrame saved to {filename}")
+
 df = pd.read_csv('servo_data.csv')
 filtered_df = filter_by_range(df, 'Torque(oz-in)', 50.0, 100.0)
-print(filtered_df)
-
-
-# # passed test cases, and therefore commented out
-# Example usage:
-# data = {'Age': [25, 30, 28, 18, 35],
-#         'Name': ['Alice', 'Bob', 'Charlie', 'David', 'Eve'],
-#         'City': ['New York', 'Los Angeles', 'Chicago', 'Houston', 'Phoenix']}
-# df = pd.DataFrame(data)
-
-# # Filter by age range
-# filtered_df1 = filter_by_range(df, 'Age', 20, 30)
-# print(filtered_df1)
-#
-# # Filter by text in the 'Name' column
-# filtered_df2 = filter_by_text(df, 'Name', 'Alice')
-# print(filtered_df2)
+save_filtered_df(filtered_df)
