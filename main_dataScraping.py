@@ -5,44 +5,47 @@ from selenium.webdriver.support import expected_conditions as EC
 import csv
 import re
 
+LAST_PAGE = 101  # Adjust the page limit as needed
+
 # Initialize the Chrome driver
 driver = webdriver.Chrome()
 
 
 # Function to clean and split Torque/Speed data
 def clean_split_data(data):
+    if data.lower() == "(add)" or not data.strip():  # Check if the data is "(add)" or blank
+        return []
+
     # Split by line break
     split_data = data.split('\n')
     cleaned_data = []
 
     for item in split_data:
         # Use regex to extract just the numeric part
-        voltage = re.search(r"(\d+(\.\d+)?)V", item).group(1)
-        value = re.search(r"(\d+(\.\d+)?)", item.split()[-2]).group(1)
-        cleaned_data.append((voltage, value))
+        voltage_match = re.search(r"(\d+(\.\d+)?)V", item)
+        value_match = re.search(r"(\d+(\.\d+)?)", item.split()[-2])
+
+        if voltage_match and value_match:
+            voltage = voltage_match.group(1)
+            value = value_match.group(1)
+            cleaned_data.append((voltage, value))
 
     return cleaned_data
 
 
 # Open a CSV file to write the data
-with open("servo_data.csv", "w", newline="") as csvfile:
+with open("servo_data.csv", "w", newline="", encoding="utf-8") as csvfile:
     writer = csv.writer(csvfile)
 
     # Write the header row
     header = ["Make", "Model", "Modulation", "Weight(oz)", "L(in)", "W(in)", "H(in)", "Torque(which_V)",
-              "Torque(oz-in)", "Speed(which_V)", "Speed(s/60°)", "Motor Type", "Rotation", "Gear Material",
+              "Torque(oz-in)", "Speed(which_V)", "Speed(s/60deg)", "Motor Type", "Rotation", "Gear Material",
               "Typical Price"]
     writer.writerow(header)
 
-    # Iterate through pages 1 to 10
-    # TODO: update with this prompt:
-    """
-    YES!!!!! ok, one thing I forgot to mention: sometimes, this database has (add) when the entry is blank. This is a problem for the columns that need to be parsed, especially when one column (like Torque) is "4.8V 0.07 s/60 
-6.0V 0.06 s/60 " and the other (Speed) is (add) or vice versa
-
-    """
-    for curr_page_number in range(1, 102):
-        print(curr_page_number)
+    # Iterate through pages
+    for curr_page_number in range(1, LAST_PAGE + 1):
+        print(f"Processing page {curr_page_number}...")
         # Navigate to the website
         driver.get(f"https://servodatabase.com/servos/all?page={curr_page_number}")
 
@@ -77,6 +80,12 @@ with open("servo_data.csv", "w", newline="") as csvfile:
                 rotation = cells[8].text
                 gear_material = cells[9].text
                 typical_price = cells[10].text
+
+                # Handle cases where either Torque or Speed data is missing or marked as "(add)"
+                if not torque_data:
+                    torque_data = [("", "")] * len(speed_data)
+                if not speed_data:
+                    speed_data = [("", "")] * len(torque_data)
 
                 # Combine and write each set of Torque and Speed data
                 for t_data, s_data in zip(torque_data, speed_data):
