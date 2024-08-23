@@ -1,51 +1,20 @@
+import querying_work
 import pandas as pd
-import datetime
+"""
+Options:
 
-from pip._internal.utils.misc import tabulate
+1. Replace 'data_working_20240822.csv' with 'servo_data.csv' in the main_querying.py file to access the latest pull.
 
+2. The querying_work.py file includes BETWEEN function for numerical columns and CONTAINS function for text columns.
 
-def filter_by_range(df, column_name, lower_bound, upper_bound):
-  """Filters a DataFrame based on a column's value range.
+write any combination of filtering functions to filter the data as desired in the df you loaded from the CSV file.
 
-  Args:
-    df: The input DataFrame.
-    column_name: The name of the column to filter.
-    lower_bound: The lower bound of the range.
-    upper_bound: The upper bound of the range.
+3. The data is currently saved to a new CSV file with a timestamp. You can change the filename to a more descriptive name if needed.
 
-  Returns:
-    A new DataFrame containing rows that meet the filtering criteria.
-  """
+"""
+df = pd.read_csv('data_working_20240822.csv')
 
-  return df[(df[column_name] >= lower_bound) & (df[column_name] <= upper_bound)]
-
-def filter_by_text(df, column_name, text):
-  """Filters a DataFrame based on a column's text content.
-
-  Args:
-    df: The input DataFrame.
-    column_name: The name of the column to filter.
-    text: The text to search for.
-
-  Returns:
-    A new DataFrame containing rows that match the text.
-  """
-
-  return df[df[column_name].str.contains(text, case=False)]
+filtered_df = querying_work.filter_by_range(df, 'Torque(oz-in)', 50.0, 100.0)
 
 
-def save_filtered_df(filtered_df):
-  """Saves the filtered DataFrame to a new CSV file with a timestamp.
-
-  Args:
-    filtered_df: The filtered DataFrame.
-  """
-
-  timestamp = datetime.datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
-  filename = f"queryAt_{timestamp}.csv"
-  filtered_df.to_csv(filename, index=False)
-  print(f"Filtered DataFrame saved to {filename}")
-
-df = pd.read_csv('servo_data.csv')
-filtered_df = filter_by_range(df, 'Torque(oz-in)', 50.0, 100.0)
-save_filtered_df(filtered_df)
+querying_work.save_filtered_df(filtered_df)

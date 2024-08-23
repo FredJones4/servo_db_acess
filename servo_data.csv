@@ -86,3 +86,90 @@ Airtronics/ Sanwa,94746M,Digital,1.76,1.59,0.83,1.04,4.8,80.0,4.8,0.10,3-pole,Du
 Airtronics/ Sanwa,94746M,Digital,1.76,1.59,0.83,1.04,6.0,89.0,6.0,0.08,3-pole,Dual Bearings,Metal,99.99
 Airtronics/ Sanwa,94751Z,Digital,1.80,1.54,0.79,1.40,4.8,73.0,4.8,0.16,Coreless,Dual Bearings,Plastic,(add)
 Airtronics/ Sanwa,94751Z,Digital,1.80,1.54,0.79,1.40,6.0,91.0,6.0,0.13,Coreless,Dual Bearings,Plastic,(add)
+Airtronics/ Sanwa,94755Z,Digital,2.04,1.54,0.79,1.40,4.8,65.0,4.8,0.14,Coreless,Dual Bearings,Hybrid,99.99
+Airtronics/ Sanwa,94755Z,Digital,2.04,1.54,0.79,1.40,6.0,81.0,6.0,0.11,Coreless,Dual Bearings,Hybrid,99.99
+Airtronics/ Sanwa,94757Z,Digital,2.04,1.54,0.79,1.40,4.8,96.0,4.8,0.09,(add),Dual Bearings,Metal,(add)
+Airtronics/ Sanwa,94757Z,Digital,2.04,1.54,0.79,1.40,6.0,115.0,6.0,0.07,(add),Dual Bearings,Metal,(add)
+Airtronics/ Sanwa,94758Z,Digital,2.12,1.54,0.79,1.47,4.8,92.0,4.8,0.07,Coreless,Dual Bearings,Metal,86.99
+Airtronics/ Sanwa,94758Z,Digital,2.12,1.54,0.79,1.47,6.0,115.0,6.0,0.06,Coreless,Dual Bearings,Metal,86.99
+Airtronics/ Sanwa,94761Z,Digital,0.81,1.06,0.47,1.18,4.8,55.0,4.8,0.15,3-pole,Dual Bearings,Metal,59.99
+Airtronics/ Sanwa,94761Z,Digital,0.81,1.06,0.47,1.18,6.0,66.0,6.0,0.12,3-pole,Dual Bearings,Metal,59.99
+Airtronics/ Sanwa,94762,Digital,1.94,1.54,0.79,1.61,4.8,92.0,4.8,0.22,(add),Dual Bearings,Metal,49.99
+Airtronics/ Sanwa,94771M,Digital,1.98,1.54,0.79,1.47,4.8,82.0,4.8,0.13,3-pole,Dual Bearings,Metal,108.99
+Airtronics/ Sanwa,94771M,Digital,1.98,1.54,0.79,1.47,6.0,103.0,6.0,0.10,3-pole,Dual Bearings,Metal,108.99
+Airtronics/ Sanwa,94772M,(add),1.98,1.54,0.79,1.47,4.8,67.0,4.8,0.11,3-pole,Dual Bearings,Metal,69.99
+Airtronics/ Sanwa,94772M,(add),1.98,1.54,0.79,1.47,6.0,83.0,6.0,0.09,3-pole,Dual Bearings,Metal,69.99
+Airtronics/ Sanwa,94773M,(add),2.00,1.54,0.79,1.47,4.8,156.0,4.8,0.15,3-pole,Dual Bearings,Metal,108.99
+Airtronics/ Sanwa,94773M,(add),2.00,1.54,0.79,1.47,6.0,194.0,6.0,0.12,3-pole,Dual Bearings,Metal,108.99
+Airtronics/ Sanwa,94774,Digital,1.98,1.54,0.78,1.50,4.8,92.0,4.8,0.13,(add),Dual Bearings,Metal,84.99
+Airtronics/ Sanwa,94774,Digital,1.98,1.54,0.78,1.50,6.0,114.0,6.0,0.10,(add),Dual Bearings,Metal,84.99
+Airtronics/ Sanwa,94775,Digital,1.98,1.54,0.78,1.50,4.8,124.0,4.8,0.17,Coreless,Dual Bearings,Metal,64.99
+Airtronics/ Sanwa,94775,Digital,1.98,1.54,0.78,1.50,6.0,151.0,6.0,0.13,Coreless,Dual Bearings,Metal,64.99
+Airtronics/ Sanwa,94780M,Digital,2.33,1.60,0.83,1.50,4.8,361.0,4.8,0.19,Coreless,Dual Bearings,Metal,114.99
+Airtronics/ Sanwa,94780M,Digital,2.33,1.60,0.83,1.50,6.0,423.0,6.0,0.15,Coreless,Dual Bearings,Metal,114.99
+Airtronics/ Sanwa,94802,Digital,0.26,0.91,0.35,0.90,4.8,22.0,4.8,0.18,3-pole,Dual Bearings,Plastic,36.99
+Airtronics/ Sanwa,94802,Digital,0.26,0.91,0.35,0.90,6.0,26.0,6.0,0.15,3-pole,Dual Bearings,Plastic,36.99
+Airtronics/ Sanwa,94803,Digital,0.35,0.93,0.45,0.83,4.8,24.0,4.8,0.15,3-pole,Single Bearing,Plastic,34.99
+Airtronics/ Sanwa,94803,Digital,0.35,0.93,0.45,0.83,6.0,28.0,6.0,0.12,3-pole,Single Bearing,Plastic,34.99
+Airtronics/ Sanwa,94809,Digital,0.38,0.93,0.45,0.83,4.8,35.0,4.8,0.12,3-pole,Single Bearing,Metal,44.99
+Airtronics/ Sanwa,94809,Digital,0.38,0.93,0.45,0.83,6.0,39.0,6.0,0.10,3-pole,Single Bearing,Metal,44.99
+Airtronics/ Sanwa,94814,Digital,0.60,1.16,0.47,1.02,4.8,21.0,4.8,0.07,3-pole,Bushing,Plastic,44.99
+Airtronics/ Sanwa,94814,Digital,0.60,1.16,0.47,1.02,6.0,25.0,6.0,0.06,3-pole,Bushing,Plastic,44.99
+Airtronics/ Sanwa,94815,Digital,0.62,1.16,0.47,1.02,4.8,21.0,4.8,0.07,3-pole,Single Bearing,Metal,57.99
+Airtronics/ Sanwa,94815,Digital,0.62,1.16,0.47,1.02,6.0,25.0,6.0,0.06,3-pole,Single Bearing,Metal,57.99
+Airtronics/ Sanwa,94819,Digital,0.92,1.26,0.63,1.24,4.8,28.0,4.8,0.08,3-pole,Dual Bearings,Plastic,45.99
+Airtronics/ Sanwa,94819,Digital,0.92,1.26,0.63,1.24,6.0,33.0,6.0,0.07,3-pole,Dual Bearings,Plastic,45.99
+Airtronics/ Sanwa,94820,Digital,1.04,1.26,0.63,1.24,4.8,76.0,4.8,0.22,3-pole,Dual Bearings,Metal,57.99
+Airtronics/ Sanwa,94820,Digital,1.04,1.26,0.63,1.24,6.0,90.0,6.0,0.18,3-pole,Dual Bearings,Metal,57.99
+Airtronics/ Sanwa,94831Z,Analog,1.09,1.46,0.71,1.18,4.8,49.0,4.8,0.20,5-pole,Single Bearing,Hybrid,32.95
+Airtronics/ Sanwa,94831Z,Analog,1.09,1.46,0.71,1.18,6.0,61.0,6.0,0.16,5-pole,Single Bearing,Hybrid,32.95
+Airtronics/ Sanwa,94842,Digital,1.62,1.57,0.77,1.56,4.8,111.0,4.8,0.16,3-pole,Dual Bearings,Plastic,35.99
+Airtronics/ Sanwa,94842,Digital,1.62,1.57,0.77,1.56,6.0,132.0,6.0,0.13,3-pole,Dual Bearings,Plastic,35.99
+Airtronics/ Sanwa,94851,Digital,1.87,1.57,0.77,1.56,4.8,161.0,4.8,0.23,3-pole,Dual Bearings,Metal,55.99
+Airtronics/ Sanwa,94851,Digital,1.87,1.57,0.77,1.56,6.0,192.0,6.0,0.19,3-pole,Dual Bearings,Metal,55.99
+Airtronics/ Sanwa,94856,Digital,2.05,1.50,0.79,1.49,4.8,125.0,4.8,0.14,(add),Dual Bearings,Metal,99.99
+Airtronics/ Sanwa,94856,Digital,2.05,1.50,0.79,1.49,6.0,150.0,6.0,0.11,(add),Dual Bearings,Metal,99.99
+Airtronics/ Sanwa,94858,Digital,2.05,1.50,0.79,1.49,4.8,153.0,4.8,0.15,(add),Dual Bearings,Metal,107.38
+Airtronics/ Sanwa,94858,Digital,2.05,1.50,0.79,1.49,6.0,183.0,6.0,0.12,(add),Dual Bearings,Metal,107.38
+Airtronics/ Sanwa,94910,Digital,2.22,1.59,0.83,1.50,6.0,225.0,6.0,0.12,(add),Dual Bearings,Metal,169.99
+Airtronics/ Sanwa,94910,Digital,2.22,1.59,0.83,1.50,7.4,285.0,7.4,0.10,(add),Dual Bearings,Metal,169.99
+Airtronics/ Sanwa,94911,Digital,2.22,1.59,0.83,1.50,6.0,240.0,6.0,0.15,(add),Dual Bearings,Metal,169.99
+Airtronics/ Sanwa,94911,Digital,2.22,1.59,0.83,1.50,7.4,336.0,7.4,0.12,(add),Dual Bearings,Metal,169.99
+Airtronics/ Sanwa,94921Z,(add),1.69,1.74,0.87,0.92,4.8,56.0,4.8,0.16,Coreless,(add),(add),82.95
+Airtronics/ Sanwa,94921Z,(add),1.69,1.74,0.87,0.92,6.0,70.0,6.0,0.13,Coreless,(add),(add),82.95
+Airtronics/ Sanwa,94924Z,(add),1.60,1.74,0.87,0.92,4.8,77.0,4.8,0.48,5-pole,(add),(add),74.95
+Airtronics/ Sanwa,94924Z,(add),1.60,1.74,0.87,0.92,6.0,96.0,6.0,0.38,5-pole,(add),(add),74.95
+Airtronics/ Sanwa,94930,Digital,2.15,1.59,0.83,1.50,4.8,88.0,4.8,0.13,Brushless,Dual Bearings,Metal,199.99
+Airtronics/ Sanwa,94930,Digital,2.15,1.59,0.83,1.50,6.0,111.0,6.0,0.10,Brushless,Dual Bearings,Metal,199.99
+Airtronics/ Sanwa,94931,Digital,2.22,1.59,0.83,1.50,4.8,142.0,4.8,0.15,Brushless,Dual Bearings,Metal,199.99
+Airtronics/ Sanwa,94931,Digital,2.22,1.59,0.83,1.50,6.0,181.0,6.0,0.12,Brushless,Dual Bearings,Metal,199.99
+Airtronics/ Sanwa,94950,Digital,2.15,1.59,0.83,1.50,4.8,100.0,4.8,0.13,Coreless,Dual Bearings,Metal,179.99
+Airtronics/ Sanwa,94950,Digital,2.15,1.59,0.83,1.50,6.0,125.0,6.0,0.10,Coreless,Dual Bearings,Metal,179.99
+Airtronics/ Sanwa,94951,Digital,2.22,1.59,0.83,1.50,4.8,175.0,4.8,0.14,Coreless,Dual Bearings,Metal,179.99
+Airtronics/ Sanwa,94951,Digital,2.22,1.59,0.83,1.50,6.0,205.0,6.0,0.12,Coreless,Dual Bearings,Metal,179.99
+Airtronics/ Sanwa,97738Z,Analog,1.94,1.54,0.79,1.38,4.8,70.0,4.8,0.20,(add),Dual Bearings,Hybrid,(add)
+Airtronics/ Sanwa,97738Z,Analog,1.94,1.54,0.79,1.38,6.0,88.0,6.0,0.16,(add),Dual Bearings,Hybrid,(add)
+Align,18G,Analog,0.67,1.18,0.45,1.22,4.8,27.8,4.8,0.16,(add),(add),(add),11.99
+Align,36G,(add),1.27,1.42,0.79,1.42,4.8,34.7,4.8,0.15,(add),(add),(add),10.48
+Align,6G,(add),0.21,0.81,0.43,0.87,4.8,9.0,4.8,0.13,(add),(add),(add),11.10
+Align,6X,(add),0.21,0.83,0.47,0.79,4.8,9.7,4.8,0.10,(add),(add),(add),11.10
+Align,9G,(add),0.32,0.87,0.41,1.42,4.8,13.9,4.8,0.13,(add),(add),(add),11.10
+Align,9XP,Analog,0.32,0.94,0.49,0.94,4.8,18.1,4.8,0.11,(add),(add),(add),11.99
+Align,DS410,Digital,0.45,0.93,0.49,1.04,4.8,25.0,4.8,0.13,(add),Single Bearing,Plastic,27.99
+Align,DS410,Digital,0.45,0.93,0.49,1.04,6.0,30.6,6.0,0.09,(add),Single Bearing,Plastic,27.99
+Align,DS410M,Digital,0.47,0.93,0.49,1.04,4.8,25.0,4.8,0.13,(add),Single Bearing,Metal,34.99
+Align,DS410M,Digital,0.47,0.93,0.49,1.04,6.0,30.6,6.0,0.09,(add),Single Bearing,Metal,34.99
+Align,DS420,Digital,0.45,0.93,0.49,1.04,4.8,10.4,4.8,0.08,Coreless,Single Bearing,Metal,27.99
+Align,DS420,Digital,0.45,0.93,0.49,1.04,6.0,13.9,6.0,0.06,Coreless,Single Bearing,Metal,27.99
+Align,DS510,Digital,0.91,1.38,0.59,1.15,4.8,51.4,4.8,0.13,Coreless,Dual Bearings,Plastic,49.99
+Align,DS510,Digital,0.91,1.38,0.59,1.15,6.0,63.9,6.0,0.11,Coreless,Dual Bearings,Plastic,49.99
+Align,DS510M,Digital,1.02,1.38,0.59,1.15,4.8,51.4,4.8,0.13,Coreless,Dual Bearings,Metal,62.99
+Align,DS510M,Digital,1.02,1.38,0.59,1.15,6.0,63.9,6.0,0.11,Coreless,Dual Bearings,Metal,62.99
+Align,DS520,Digital,0.91,1.43,0.61,1.19,4.8,26.4,4.8,0.09,Coreless,(add),Plastic,49.99
+Align,DS520,Digital,0.91,1.43,0.61,1.19,6.0,34.7,6.0,0.07,Coreless,(add),Plastic,49.99
+Align,DS610,Digital,1.85,1.64,0.82,1.47,4.8,133.3,4.8,0.10,Coreless,Dual Bearings,Titanium,67.99
+Align,DS610,Digital,1.85,1.64,0.82,1.47,6.0,166.6,6.0,0.08,Coreless,Dual Bearings,Titanium,67.99
+Align,DS620,Digital,1.84,1.64,0.82,1.47,4.8,111.1,4.8,0.09,Coreless,Dual Bearings,Titanium,67.99
+Align,DS620,Digital,1.84,1.64,0.82,1.47,6.0,138.9,6.0,0.07,Coreless,Dual Bearings,Titanium,67.99
+Align,DS650,Digital,1.98,1.64,0.82,1.47,4.8,55.5,4.8,0.06,Coreless,Dual Bearings,Metal,75.99
+Align,DS650,Digital,1.98,1.64,0.82,1.47,6.0,69.4,6.0,0.05,Coreless,Dual Bearings,Metal,75.99
