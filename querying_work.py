@@ -51,9 +51,3 @@ def save_filtered_df(filtered_df):
 
 
 
-df = pd.read_csv('servo_data.csv')
-
-filtered_df = filter_by_range(df, 'Torque(oz-in)', 50.0, 100.0)
-
-
-save_filtered_df(filtered_df)
