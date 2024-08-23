@@ -4,6 +4,8 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import csv
 import re
+import nan
+import pandas as pd
 
 LAST_PAGE = 101  # Adjust the page limit as needed
 
@@ -95,4 +97,16 @@ with open("servo_data.csv", "w", newline="", encoding="utf-8") as csvfile:
                          s_data[1], motor_type, rotation, gear_material, cleaned_price])
 
 # Close the browser
+
 driver.quit()
+
+# Last but not least, we need to clean the data by replacing string values with NaN in the relevant columns.
+# We can use the functions defined in the nan.py file to achieve this.
+columns_to_check = [
+        'Weight(oz)', 'L(in)', 'W(in)', 'H(in)', 'Torque(which_V)', 
+        'Torque(oz-in)', 'Speed(which_V)', 'Speed(s/60deg)', 'Typical Price'
+    ]
+df = pd.read_csv("servo_data.csv")
+df = nan.replace_strings_in_multiple_columns(df, columns_to_check)
+# Save the cleaned DataFrame to servo_data.csv. This will intentionally overwrite the existing file.
+df.to_csv("servo_data.csv", index=False)
