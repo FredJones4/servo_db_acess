@@ -15,6 +15,9 @@ write any combination of filtering functions to filter the data as desired in th
 df = pd.read_csv('data_working_20240822.csv')
 # Sample filtering by range.
 filtered_df = querying_work.filter_by_range(df, column_name='Torque(oz-in)', lower_bound=50.0, upper_bound=100.0)
-
-
+# Sample filtering by text.
+matching_filtered_df = querying_work.filter_by_text(filtered_df, column_name='Motor Type', text='DC')
+# Save number 1.
 querying_work.save_filtered_df(filtered_df)
+# Save number 2. 
+querying_work.save_filtered_df(matching_filtered_df)
