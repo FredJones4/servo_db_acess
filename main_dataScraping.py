@@ -108,5 +108,5 @@ columns_to_check = [
     ]
 df = pd.read_csv("servo_data.csv")
 df = nan.replace_strings_in_multiple_columns(df, columns_to_check)
-# Save the cleaned DataFrame to servo_data.csv. This will intentionally overwrite the existing file.
+# Save the cleaned DataFrame to servo_data.csv. It intentionally overwrites the existing file.
 df.to_csv("servo_data.csv", index=False)
