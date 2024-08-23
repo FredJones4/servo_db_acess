@@ -45,44 +45,13 @@ Other databases online could be queried in similar ways. Support with MongoDB co
 # Linux Instructions:
 
 
-The provided code can be adapted to work on Linux by using the `webdriver.Chrome` option with the path to your Chromium driver. Here's how to modify the code:
+## Download Chrome for Linux
+1. Go to the [official download site for Chrome on Linux](https://support.google.com/chrome/a/answer/9025926?hl=en&ref_topic=9025817&sjid=9425450324191466168-NC).
+2. Download the .deb file.
+3. ```sudo dpkg -i <debian name>```
 
-**1. Install Chromium Driver:**
+## 
 
-First, you need to install the ChromeDriver that works with your Chromium version. You can download the appropriate version from the official ChromeDriver download page: [https://developer.chrome.com/docs/chromedriver/downloads](https://developer.chrome.com/docs/chromedriver/downloads)
+ Perhaps VSCode or another text editor/IDE will set up its own virtual environment. That is encouraged.
 
-**2. Specify Driver Path:**
-
-Modify the line that initializes the Chrome driver:
-
-```python
-# Replace with the actual path to your ChromeDriver
-chromedriver_path = "/path/to/chromedriver"
-driver = webdriver.Chrome(executable_path=chromedriver_path)
-```
-
-**3. (Optional) Set Up Headless Mode (if preferred):**
-
-If you don't need a graphical browser window to open, you can run Chrome in headless mode by adding the following option:
-
-```python
-chrome_options = webdriver.ChromeOptions()
-chrome_options.add_argument('--headless')
-driver = webdriver.Chrome(executable_path=chromedriver_path, options=chrome_options)
-```
-
-**4. Run the Script:**
-
-Save the modified script and run it on your Linux terminal. 
-
-**Additional Considerations:**
-
-* Make sure the `chromedriver` binary has executable permissions. You can use `chmod +x /path/to/chromedriver` to set them.
-* If you encounter issues with compatibility between Chromium and ChromeDriver versions,  download a ChromeDriver version that matches your Chromium browser version.
-
-**Alternatives:**
-
-* **Use Firefox with GeckoDriver:** You can use Firefox and the GeckoDriver for web scraping tasks. The setup process would be similar, but you'd use `webdriver.Firefox` and the GeckoDriver executable path.
-* **Headless Browsers:** Several headless browsers like PhantomJS can be used for web scraping, but their support might be limited.
-
-Remember, web scraping can sometimes violate website terms of service.  It's important to check the website's guidelines before scraping data.
+Web scraping should work out of the box.
