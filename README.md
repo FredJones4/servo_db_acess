@@ -28,11 +28,36 @@ From the start of it running until it is done scraping, the app will:
 Once the app finishes up and closes the webpage, it will run a final cleaning of the database, since some entry pieces were listed as blank by writing "(add)", which is troublesome for numerical columns. The app finishes its work by removing any such troublesome entries and leaving the cell blank.
 
 ## Querying
-The method of querying requested was to be able to create a BETWEEN function for numerical columns. However, since it was so quick and easy, a feature that matches all of a certain name was also attached.
+The method of querying requested was to be able to create a BETWEEN function for numerical columns, or a CONTAINS function, or some combination of those.
 
-The process is as follows:
-1. Based off of user-input values (either for matching or range), the program will query the specified .csv file (default is ```servo_data.csv```).
-2. The results will be saved to a new .csv file with the user's preference saved.
+In other words, by implementing any combination of the BETWEEN and CONTAINS functions as seen in the example, one could implement any of the following queries and more:
+
+
+1. 
+   `Modulation="Analog" AND (Weight(oz) is less than 2) AND (Torque(oz-in) is greater than 50)`
+
+2. 
+   `Modulation="Digital" AND (L(in) is between 1 and 2) AND (Speed(s/60deg) is less than 0.1)`
+
+3.  
+   `Modulation="Analog" AND (H(in) is greater than 1.4) AND (Gear Material="Metal")`
+
+4.  
+   `Modulation="Digital" AND (Typical Price is less than 100) AND (Rotation="Dual Bearings")`
+
+5.  
+   `Modulation="Analog" AND (L(in) is greater than 1.5) AND (Torque(oz-in) is less than 60)`
+
+6.   
+   `Modulation="Digital" AND (Weight(oz) is between 1 and 2) AND (Torque(oz-in) is greater than 90)`
+
+7.  
+   `Modulation="Analog" AND (W(in) is less than 0.8) AND (Speed(s/60deg) is greater than 0.15)`
+
+8.  
+   `Modulation="Digital" AND (H(in) is between 1.2 and 1.5) AND (Motor Type="Coreless")`
+
+NOTE: Less than or Greater than can be implemented using the BETWEEN function by using a lower bound of 0 or an upper bound of infinity, respectively.
 
 # Future
 
