@@ -25,7 +25,7 @@ From the start of it running until it is done scraping, the app will:
 2. Grab all the data requested, cleaning it as it goes
 3. Write each row of data collected to ```servo_data.csv```. **IMPORTANT**: if ```servo_data.csv``` does not exists, the app will create it. If it already exists, it will override the previous contents. That is why the main code block has ```data_working_20240822.csv``` saved away as a different file.
 
-Once the app finishes up and closes the webpage, it will run a final cleaning of the database, since some entry pieces were listed as blank by writing "(add)", which is troublesom for numerical columns. The app finishes its work by removing any such troublesome entries and leaving the cell blank.
+Once the app finishes up and closes the webpage, it will run a final cleaning of the database, since some entry pieces were listed as blank by writing "(add)", which is troublesome for numerical columns. The app finishes its work by removing any such troublesome entries and leaving the cell blank.
 
 ## Querying
 The method of querying requested was to be able to create a BETWEEN function for numerical columns. However, since it was so quick and easy, a feature that matches all of a certain name was also attached.
