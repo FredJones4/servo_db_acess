@@ -20,7 +20,7 @@ An important discovery was that the encoding of the text for the csv created nee
 
 Luckily, the website is set up such that each page's URL only changes by one character: its index. That made coding much simpler; one would have needed to find the button to have Selenium click, which would have been slightly more  complicated.
 
-Until it is done, the app will:
+From the start of it running until it is done scraping, the app will:
 1. keep open an automated webpage with the site, printing the iteration of page it is on for debugging purposes.
 2. Grab all the data requested, cleaning it as it goes
 3. Writing each row of data collected to ```servo_data.csv```. **IMPORTANT**: if ```servo_data.csv``` does not exists, the app will create it. If it already exists, it will override the previous contents. That is why the main code block has ```data_working_20240822.csv``` saved away as a different file.
