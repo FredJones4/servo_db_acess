@@ -1,4 +1,4 @@
-Windows and Linux versions both exist.
+The instructions are mainly for Windows. See *Linux* instructions at the bottom for Linux computers. The instructions were tested on Ubuntu 22.04.
 
 
 # Design
