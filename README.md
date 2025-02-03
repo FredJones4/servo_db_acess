@@ -1,4 +1,4 @@
-Reccomendation is to do this on Windows for now, until a linux version can be added. Instructions for how to alter for Linux and allow the app to run in the background are found below.
+Windows and Linux versions both exist.
 
 
 # Design
