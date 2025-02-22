@@ -12,7 +12,7 @@ The design process was as follows:
 
 The method of querying requested was to be able to create a BETWEEN function for numerical columns. However, since it was so quick and easy, a feature that matches all of a certain name was also attached.
 
-An important discovery was that the encoding of the text for the csv created needed to be hard-encoded to UTF-8, which is usually standard. An example of this is seen in ```nonWorkingData_not_utf8.csv``.
+An important discovery was that the encoding of the text for the csv created needed to be hard-encoded to UTF-8, which is usually standard. An example of this is seen in ```nonWorkingData_not_utf8.csv```.
 
 # Application
 
